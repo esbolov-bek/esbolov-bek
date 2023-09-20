@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png"
+     href="./images/icon.svg">
+    <title>Bekgazi</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav>
+                <button class="header__burger-btn" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="logo">B<p>ekgazi</p></div>
+                <div class="menu">
+                <ul class="menu__list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+            </div>
+            </nav>
+            <div class="header-text">
+                <p>Frond-end Devolopmer</p>
+                <h1>Hi, I'm <span>Bekgazi</span><br>from Uzbekistan</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/1.1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"Hello! I am a frontend developer with a great passion for creating beautiful and functional web applications. With experience in HTML, CSS, and JavaScript, I strive to make every project I work on impressive and intuitive for users. My constant desire to learn new technologies and improve my skills allows me to tackle challenges successfully and achieve results. I am ready to collaborate with you to create amazing websites!"</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                            <li><span>Web Development</span><br>Front-end </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>UI/UX Design training at ET Institute</li>
+                            <li><span>2022-2023</span><br>Since 2022, I started working as a freelancer.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>UI/UX Design training at ET Institute</li>
+                            <li><span>2021-2022</span><br>I studied at Proweb specializing in Frontend development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Programming languages: HTML5, CSS3, JavaScript. <br>  Frameworks: React, Vue.js. Version control systems: Git. <br> Build tools: Webpack, Parcel. <br> Preprocessors: SASS, CSS. <br>Code editors experience: VS Code.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I am a beginner web designer. I can create promotional websites and single-page sites. I work with the latest version of Figma. Maybe I don't know everything, but I will find solutions for the task at hand and learn from mistakes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/sayt.png" alt="">
+                    <div class="layer">
+                        <h2>MNTN</h2>
+                        <p></p>
+                        <a href="https://esbolov-bek.github.io/Turist-page/">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <a href="https://esbolov-bek.github.io/Turist-page/" class="btn-1">Visit the website.</a>
+                </div>
+                <div class="work">
+                    <img src="./images/4.png" alt="">
+                    <div class="layer">
+                        <h2>ТаскТрекер</h2>
+                        <p></p>
+                        <a href="https://esbolov-bek.github.io/tasctrece/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <a href="https://esbolov-bek.github.io/tasctrece/" class="btn-1">Visit the website.</a>
+                </div>
+            </div>
+            <a href="./pages.html" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <a href="https://t.me/esbolo_bek"><p><i class="fas fa-paper-plane"></i>t.me/esbolo_bek
+                    </p></a>
+                    <p><i class="fas fa-phone-square-alt"></i> +998903471440</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/bekgozi.esbolov"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/p/CvfbvQoMFFz/?hl=ru"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+        
+        document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById("burger").addEventListener("click", function(){
+   document.querySelector("header").classList.toggle("open")       
+    })
+})
+    </script>
+</body>
+
+</html>
